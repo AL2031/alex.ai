@@ -13,7 +13,7 @@ export default async function handler(req, res) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bearer ${process.env.API}`
+      "Authorization": `Bearer ${process.env.Key}`
     },
     body: JSON.stringify({
       model: "llama-3.3-70b-versatile",
